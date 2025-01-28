@@ -1,5 +1,5 @@
 import unittest
-from reverse_output import reverse_list  # Import the function to test
+from reverse_test import reverse_list  # Import the function to test
 
 
 class TestReverseList(unittest.TestCase):
