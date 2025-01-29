@@ -4,8 +4,7 @@
 def list_intersection(lst1, lst2):
     comon = []
 
-    for i in lst1:
-        if i in lst2:
+    for i in (set(lst1) & set(lst2)):
             comon.append(i)
     return comon
 
