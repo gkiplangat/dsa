@@ -2,11 +2,8 @@
 #- Write a Python function to return a list containing all elements from both lists, without duplicates.
 
 def union_of_lists(lst1, lst2):
-   lst1.extend(lst2)
-   unique =set()
-   for i in lst1:
-      unique.add(i)
-   return unique
+   
+   return set(lst1) | set(lst2)
 
 # Example usage
 lst1 = [1, 2, 3, 4]
